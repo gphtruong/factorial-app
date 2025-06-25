@@ -9,7 +9,7 @@ from factorial import fact
 import os
 
 def load_users():
-"""Đọc danh sách user từ file user.txt"""
+    """Đọc danh sách user từ file user.txt"""
     try:
         if os.path.exists("user.txt"):
             with open("user.txt", "r", encoding="utf-8") as f:
