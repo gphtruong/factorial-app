@@ -96,5 +96,5 @@ def main():
     else:
         login_page()
 
-if __name__ == "__mmain__":
+if __name__ == "__main__":
     main()
