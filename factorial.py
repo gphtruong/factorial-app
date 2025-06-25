@@ -81,7 +81,7 @@ def greeting_page():
 
 def main():
     # Khởi tạo session state    
-    if 'logged_in' not in st.sesion_state:
+    if 'logged_in' not in st.session_state:
         st.session_state.logged_in = False
     if 'username' not in st.session_state:
         st.session_state.username = ""
