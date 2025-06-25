@@ -34,6 +34,7 @@ def login_page():
                 # Nếu user không hợp lệ, hiển thị trang chào hỏi
                 st.session_state.show_greeting = True
                 st.session_state.username = username
+                st.warning(f"{st.session_state.username} không có quyền truy cập")
                 st.rerun()
         else:
             st.warning("Vui lòng nhập tên người dùng!")
